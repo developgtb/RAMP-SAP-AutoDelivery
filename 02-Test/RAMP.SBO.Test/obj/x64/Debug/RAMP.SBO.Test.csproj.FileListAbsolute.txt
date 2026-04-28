@@ -1,0 +1,11 @@
+C:\Developments\RAMP-SAP-AutoDelivery\02-Test\RAMP.SBO.Test\bin\x64\Debug\RAMP.SBO.Test.exe.config
+C:\Developments\RAMP-SAP-AutoDelivery\02-Test\RAMP.SBO.Test\bin\x64\Debug\RAMP.SBO.Test.exe
+C:\Developments\RAMP-SAP-AutoDelivery\02-Test\RAMP.SBO.Test\bin\x64\Debug\RAMP.SBO.Test.pdb
+C:\Developments\RAMP-SAP-AutoDelivery\02-Test\RAMP.SBO.Test\obj\x64\Debug\RAMP.SBO.Test.csproj.AssemblyReference.cache
+C:\Developments\RAMP-SAP-AutoDelivery\02-Test\RAMP.SBO.Test\obj\x64\Debug\Interop.SAPbobsCOM.dll
+C:\Developments\RAMP-SAP-AutoDelivery\02-Test\RAMP.SBO.Test\obj\x64\Debug\RAMP.SBO.Test.csproj.ResolveComReference.cache
+C:\Developments\RAMP-SAP-AutoDelivery\02-Test\RAMP.SBO.Test\obj\x64\Debug\RAMP.SBO.Test.csproj.CoreCompileInputs.cache
+C:\Developments\RAMP-SAP-AutoDelivery\02-Test\RAMP.SBO.Test\obj\x64\Debug\RAMP.SBO.Test.exe
+C:\Developments\RAMP-SAP-AutoDelivery\02-Test\RAMP.SBO.Test\obj\x64\Debug\RAMP.SBO.Test.pdb
+C:\Developments\RAMP-SAP-AutoDelivery\02-Test\RAMP.SBO.Test\bin\x64\Debug\Interop.SAPbobsCOM.dll
+C:\Developments\RAMP-SAP-AutoDelivery\02-Test\RAMP.SBO.Test\obj\x64\Debug\RAMP.SBO.Test.exe.config

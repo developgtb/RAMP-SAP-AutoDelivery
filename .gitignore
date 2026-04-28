@@ -1,0 +1,23 @@
+# Visual Studio - Archivos de compilación y temporales
+[Bb]in/
+[Ob]j/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Archivos de configuración con credenciales (¡MUY IMPORTANTE!)
+# Si usas App.config o Web.config para las claves de SAP,
+# es mejor manejarlos como plantillas.
+App.config.local
+appsettings.Development.json
+
+# SQL Server
+*.mdf
+*.ldf
+*.bak
+
+# Otros
+.DS_Store
+Thumbs.db

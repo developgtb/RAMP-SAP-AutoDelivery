@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37111.16 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RAMP.SBO.Test", "RAMP.SBO.Test.csproj", "{051B3879-339B-4F05-9A0B-517E4130B03F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{051B3879-339B-4F05-9A0B-517E4130B03F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{051B3879-339B-4F05-9A0B-517E4130B03F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{051B3879-339B-4F05-9A0B-517E4130B03F}.Debug|x64.ActiveCfg = Debug|x64
+		{051B3879-339B-4F05-9A0B-517E4130B03F}.Debug|x64.Build.0 = Debug|x64
+		{051B3879-339B-4F05-9A0B-517E4130B03F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{051B3879-339B-4F05-9A0B-517E4130B03F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{051B3879-339B-4F05-9A0B-517E4130B03F}.Release|x64.ActiveCfg = Release|x64
+		{051B3879-339B-4F05-9A0B-517E4130B03F}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {85561733-0AE1-440E-9E62-3CB90B085042}
+	EndGlobalSection
+EndGlobal
