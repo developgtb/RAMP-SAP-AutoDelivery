@@ -13,10 +13,11 @@ C:\Developments\RAMP-SAP-AutoDelivery\03-Service-CS\SBO.Ramp.Integration\bin\x64
 C:\Developments\RAMP-SAP-AutoDelivery\03-Service-CS\SBO.Ramp.Integration\obj\x64\Debug\SBO.Ramp.Integration.csproj.AssemblyReference.cache
 C:\Developments\RAMP-SAP-AutoDelivery\03-Service-CS\SBO.Ramp.Integration\obj\x64\Debug\Interop.SAPbobsCOM.dll
 C:\Developments\RAMP-SAP-AutoDelivery\03-Service-CS\SBO.Ramp.Integration\obj\x64\Debug\SBO.Ramp.Integration.csproj.ResolveComReference.cache
-C:\Developments\RAMP-SAP-AutoDelivery\03-Service-CS\SBO.Ramp.Integration\obj\x64\Debug\SBO.Ramp.Integration.Service1.resources
-C:\Developments\RAMP-SAP-AutoDelivery\03-Service-CS\SBO.Ramp.Integration\obj\x64\Debug\SBO.Ramp.Integration.csproj.GenerateResource.cache
 C:\Developments\RAMP-SAP-AutoDelivery\03-Service-CS\SBO.Ramp.Integration\obj\x64\Debug\SBO.Ramp.Integration.csproj.CoreCompileInputs.cache
 C:\Developments\RAMP-SAP-AutoDelivery\03-Service-CS\SBO.Ramp.Integration\obj\x64\Debug\SBO.Ramp.DB0AD165.Up2Date
 C:\Developments\RAMP-SAP-AutoDelivery\03-Service-CS\SBO.Ramp.Integration\obj\x64\Debug\SBO.Ramp.Integration.exe
 C:\Developments\RAMP-SAP-AutoDelivery\03-Service-CS\SBO.Ramp.Integration\obj\x64\Debug\SBO.Ramp.Integration.pdb
 C:\Developments\RAMP-SAP-AutoDelivery\03-Service-CS\SBO.Ramp.Integration\obj\x64\Debug\SBO.Ramp.Integration.exe.config
+C:\Developments\RAMP-SAP-AutoDelivery\03-Service-CS\SBO.Ramp.Integration\bin\x64\Debug\NLog.config
+C:\Developments\RAMP-SAP-AutoDelivery\03-Service-CS\SBO.Ramp.Integration\bin\x64\Debug\NLog.dll
+C:\Developments\RAMP-SAP-AutoDelivery\03-Service-CS\SBO.Ramp.Integration\bin\x64\Debug\NLog.xml

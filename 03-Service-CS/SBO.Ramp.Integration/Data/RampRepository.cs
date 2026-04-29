@@ -89,6 +89,32 @@ namespace SBO.Ramp.Integration.Data
                         LEFT JOIN [{dbSap}].dbo.RDR1 sapD ON sapD.DocEntry = sapH.DocEntry AND sapD.ItemCode = d.SapItemCode
                         WHERE h.OrderNumber = @rampId";
 
+
+                    string sql = $@"
+                        SELECT 
+                            h.OrderNumber, 
+                            h.CardCode,        -- Cambiado de SapCardCode a CardCode (verificar en RAMP)
+        h.DocumentDate,
+        d.ItemCode,        -- Cambiado de SapItemCode a ItemCode (verificar en RAMP)
+        d.QtyShipped,
+        sapH.DocEntry AS SapOrderDocEntry,
+        sapD.LineNum AS SapOrderLineNum
+    FROM {_linkServer}.{_dbReal}.dbo.ShipmentOrder h
+    INNER JOIN {_linkServer}.{_dbReal}.dbo.ShipmentOrderDetail d 
+        ON h.OrderNumber = d.OrderNumber COLLATE DATABASE_DEFAULT
+    LEFT JOIN [{dbSap}].dbo.ORDR sapH 
+        ON sapH.NumAtCard = h.OrderNumber COLLATE DATABASE_DEFAULT 
+        AND sapH.DocStatus = 'O'
+    LEFT JOIN [{dbSap}].dbo.RDR1 sapD 
+        ON sapD.DocEntry = sapH.DocEntry 
+        AND sapD.ItemCode = d.ItemCode COLLATE DATABASE_DEFAULT -- Cambiado aquí también
+    WHERE h.OrderNumber = @rampId";
+
+
+
+
+
+
                     var lookup = new Dictionary<string, ShipmentOrder>();
 
                     db.Query<ShipmentOrder, ShipmentOrderDetail, ShipmentOrder>(sql,

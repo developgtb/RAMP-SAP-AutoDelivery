@@ -1,8 +1,10 @@
-﻿using System;
-using System.Configuration;
+﻿using NLog;
 using SAPbobsCOM;
-using NLog;
+using System;
+using System.Configuration;
+using System.Runtime.ConstrainedExecution;
 using System.Runtime.InteropServices;
+using System.Security.Cryptography;
 
 namespace SBO.Ramp.Integration.Services
 {
@@ -34,9 +36,44 @@ namespace SBO.Ramp.Integration.Services
                 oCompany.DbPassword = ConfigurationManager.AppSettings["SapDbPass"];
 
                 // Mapeo dinámico por Empresa (Lectura de App.config)
-                oCompany.CompanyDB = ConfigurationManager.AppSettings[$"{empresaRef}_DB"];
-                oCompany.UserName = ConfigurationManager.AppSettings[$"{empresaRef}_SapUser"];
-                oCompany.Password = ConfigurationManager.AppSettings[$"{empresaRef}_SapPass"];
+                /* Fuerza al sistema a releer el archivo desde el disco
+                ConfigurationManager.RefreshSection("appSettings");
+
+                Logger.Info("--- [DIAGNÓSTICO DE CONFIGURACIÓN] ---");
+                Logger.Info($"Archivo cargado: {AppDomain.CurrentDomain.SetupInformation.ConfigurationFile}");
+
+                foreach (string key in ConfigurationManager.AppSettings.AllKeys)
+                {
+                    Logger.Info($"Llave encontrada: {key} | Valor: {ConfigurationManager.AppSettings[key]}");
+                }
+                Logger.Info("--- [FIN DIAGNÓSTICO] ---");*/
+
+                string keycia = $"{empresaRef}_DB";
+                Logger.Info($"Intentando leer la llave: '{keycia}'");
+
+                string keyuser = $"{empresaRef}_SapUser";
+                string keypass = $"{empresaRef}_SapPass";
+
+                string valuecia = ConfigurationManager.AppSettings[keycia];
+
+                if (string.IsNullOrEmpty(valuecia))
+                {
+                    // Si falla, listamos qué llaves SI existen para comparar
+                    string llavesDisponibles = string.Join(", ", ConfigurationManager.AppSettings.AllKeys);
+                    Logger.Error($"No se encontró '{keycia}'. Llaves que sí existen en el config: {llavesDisponibles}");
+                    return null;
+                }
+
+                string valueuser = ConfigurationManager.AppSettings[keyuser];
+                string valuepass = ConfigurationManager.AppSettings[keypass];
+
+                //oCompany.CompanyDB = ConfigurationManager.AppSettings[$"{empresaRef}_DB"];
+                //oCompany.UserName = ConfigurationManager.AppSettings[$"{empresaRef}_SapUser"];
+                //oCompany.Password = ConfigurationManager.AppSettings[$"{empresaRef}_SapPass"];
+
+                oCompany.CompanyDB = valuecia;
+                oCompany.UserName = valueuser;
+                oCompany.Password = valuepass;
 
                 // Validación preventiva de configuración
                 if (string.IsNullOrEmpty(oCompany.CompanyDB))

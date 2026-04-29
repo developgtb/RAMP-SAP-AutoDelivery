@@ -98,7 +98,7 @@ namespace SBO.Ramp.Integration.Services
 
             try
             {
-                Logger.Info($"[Doc] Procesando {rampId}");
+                Logger.Info($"[Doc] Procesando orden: {rampId}");
 
                 ShipmentOrder rampOrder = _repo.ObtenerOrdenCompleta(rampId, _oCompany.CompanyDB);
 
