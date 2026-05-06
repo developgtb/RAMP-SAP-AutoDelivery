@@ -89,7 +89,7 @@ namespace SBO.Ramp.Integration
             {
                 if (_timer != null)
                 {
-                    _timer.Start();
+                    //_timer.Start();
                 }
             }
         }

@@ -21,3 +21,11 @@ C:\Developments\RAMP-SAP-AutoDelivery\03-Service-CS\SBO.Ramp.Integration\obj\x64
 C:\Developments\RAMP-SAP-AutoDelivery\03-Service-CS\SBO.Ramp.Integration\bin\x64\Debug\NLog.config
 C:\Developments\RAMP-SAP-AutoDelivery\03-Service-CS\SBO.Ramp.Integration\bin\x64\Debug\NLog.dll
 C:\Developments\RAMP-SAP-AutoDelivery\03-Service-CS\SBO.Ramp.Integration\bin\x64\Debug\NLog.xml
+C:\Developments\RAMP-SAP-AutoDelivery\03-Service-CS\SBO.Ramp.Integration\bin\x64\Debug\MockData\ejemplo01.json
+C:\Developments\RAMP-SAP-AutoDelivery\03-Service-CS\SBO.Ramp.Integration\bin\x64\Debug\Newtonsoft.Json.dll
+C:\Developments\RAMP-SAP-AutoDelivery\03-Service-CS\SBO.Ramp.Integration\bin\x64\Debug\Newtonsoft.Json.xml
+C:\Developments\RAMP-SAP-AutoDelivery\03-Service-CS\SBO.Ramp.Integration\bin\x64\Debug\MockData\ejemplo02.json
+C:\Developments\RAMP-SAP-AutoDelivery\03-Service-CS\SBO.Ramp.Integration\bin\x64\Debug\MockData\ejemplo03.json
+C:\Developments\RAMP-SAP-AutoDelivery\03-Service-CS\SBO.Ramp.Integration\bin\x64\Debug\MockData\ejemplo04.json
+C:\Developments\RAMP-SAP-AutoDelivery\03-Service-CS\SBO.Ramp.Integration\bin\x64\Debug\MockData\ejemplo05.json
+C:\Developments\RAMP-SAP-AutoDelivery\03-Service-CS\SBO.Ramp.Integration\bin\x64\Debug\MockData\ejemplo06.json

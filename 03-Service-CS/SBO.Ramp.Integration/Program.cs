@@ -51,6 +51,7 @@ namespace SBO.Ramp.Integration
 
         private static void EjecutarModoConsola(IntegrationService service)
         {
+            Console.Clear();
             Console.Title = "SBO-RAMP Integration | MODO DEBUG";
 
             Logger.Info("==================================================");

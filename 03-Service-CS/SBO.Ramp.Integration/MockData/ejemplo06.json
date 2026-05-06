@@ -1,0 +1,79 @@
+﻿{
+  "Ordenes": [
+    {
+      "FacilityName": "PIN",
+      "SapOrderDocEntry": 27340,
+      "OrderNumber": "27340",
+      "SapCardCode": "C01578",
+      "DocumentDate": "2026-04-03T10:30:00",
+      "ActualShipDate": "2026-04-03T10:30:00",
+      "Detalles": [
+        {
+          "WarehouseSku": "A00904",
+          "QtyShipped": 2,
+          "SapOrderLineNum": 0
+        },
+        {
+          "WarehouseSku": "A00905",
+          "QtyShipped": 2,
+          "SapOrderLineNum": 1
+        },
+        {
+          "WarehouseSku": "A00906",
+          "QtyShipped": 2,
+          "SapOrderLineNum": 2
+        },
+        {
+          "WarehouseSku": "A00781",
+          "QtyShipped": 2,
+          "SapOrderLineNum": 3
+        }
+      ]
+    },
+    {
+      "FacilityName": "GTB",
+      "SapOrderDocEntry": 28450,
+      "OrderNumber": "28450",
+      "SapCardCode": "C02134",
+      "DocumentDate": "2026-04-05T14:15:00",
+      "ActualShipDate": "2026-04-06T09:00:00",
+      "Detalles": [
+        {
+          "WarehouseSku": "B00123",
+          "QtyShipped": 5,
+          "SapOrderLineNum": 0
+        },
+        {
+          "WarehouseSku": "B00456",
+          "QtyShipped": 3,
+          "SapOrderLineNum": 1
+        },
+        {
+          "WarehouseSku": "B00789",
+          "QtyShipped": 10,
+          "SapOrderLineNum": 2
+        }
+      ]
+    },
+    {
+      "FacilityName": "PIN",
+      "SapOrderDocEntry": 29567,
+      "OrderNumber": "29567",
+      "SapCardCode": "C00892",
+      "DocumentDate": "2026-04-08T09:45:00",
+      "ActualShipDate": "2026-04-10T00:00:00",
+      "Detalles": [
+        {
+          "WarehouseSku": "C00011",
+          "QtyShipped": 1,
+          "SapOrderLineNum": 0
+        },
+        {
+          "WarehouseSku": "C00022",
+          "QtyShipped": 4,
+          "SapOrderLineNum": 1
+        }
+      ]
+    }
+  ]
+}

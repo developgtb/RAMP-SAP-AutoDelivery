@@ -1,0 +1,22 @@
+﻿{
+  "Ordenes": [
+    {
+      "FacilityName": "PIN",
+      "OrderNumber": "27340",
+      "DocumentDate": "2026-04-03T10:30:00",
+      "ActualShipDate": "2026-04-03T10:30:00",
+      "Detalles": [
+        {
+          "WarehouseSku": "A00904",
+          "QtyShipped": 1,
+          "SapOrderLineNum": 0
+        },
+        {
+          "WarehouseSku": "A00906",
+          "QtyShipped": 1,
+          "SapOrderLineNum": 2
+        }
+      ]
+    }
+  ]
+}

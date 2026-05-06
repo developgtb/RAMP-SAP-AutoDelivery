@@ -1,0 +1,37 @@
+﻿{
+  "Ordenes": [
+    {
+      "FacilityName": "PIN",
+      "OrderNumber": "27346",
+      "DocumentDate": "2026-03-04T00:00:00",
+      "ActualShipDate": "2026-04-03",
+      "Detalles": [
+        {
+          "WarehouseSku": "A00518",
+          "QtyShipped": 1,
+          "SapOrderLineNum": 1
+        },
+        {
+          "WarehouseSku": "A00513",
+          "QtyShipped": 1,
+          "SapOrderLineNum": 3
+        },
+        {
+          "WarehouseSku": "A00097",
+          "QtyShipped": 1,
+          "SapOrderLineNum": 5
+        },
+        {
+          "WarehouseSku": "A00125",
+          "QtyShipped": 1,
+          "SapOrderLineNum": 7
+        },
+        {
+          "WarehouseSku": "A00287",
+          "QtyShipped": 1,
+          "SapOrderLineNum": 9
+        }
+      ]
+    }
+  ]
+}

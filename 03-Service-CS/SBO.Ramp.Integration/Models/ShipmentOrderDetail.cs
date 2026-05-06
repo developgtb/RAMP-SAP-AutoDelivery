@@ -9,7 +9,7 @@ namespace SBO.Ramp.Integration.Models
         public string CustomerName { get; set; }
         public string OrderNumber { get; set; }
         public string OrderLineNumber { get; set; }
-        public string UPCCode { get; set; }
+        public string WarehouseSku { get; set; }
         public string Description { get; set; }
         public int QtyOrdered { get; set; }
         public int QtyAllocated { get; set; }
